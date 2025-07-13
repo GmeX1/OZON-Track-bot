@@ -10,7 +10,7 @@ logger.add(sys.stderr, level='DEBUG', enqueue=True, colorize=True)
 logger.add('ozon_log.log', level='DEBUG', enqueue=True, retention='30 days')
 
 dp.include_routers(*routers)
-
+# TODO: README + DOCKER README
 
 async def main():
     try:
